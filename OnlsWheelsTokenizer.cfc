@@ -148,7 +148,7 @@
 				name = "csrf-param",
 				content = arguments.inputName
 			};
-			loc.output = loc.ouput & $tag(argumentcollection: loc.args);
+			loc.output = loc.output & $tag(argumentcollection: loc.args);
 		</cfscript>
 
 		<cfhtmlhead text="#loc.output#">
